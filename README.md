@@ -71,7 +71,7 @@ MIDIデータ
       ↓
 音符列抽出
       ↓
-Pitch / Duration / Timing
+Pitch / Duration
       ↓
 系列データ化
       ↓
