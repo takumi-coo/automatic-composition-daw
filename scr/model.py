@@ -232,7 +232,7 @@ y = np.reshape(all_next_notes, (all_next_notes.shape[0], all_next_notes.shape[1]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=1)
 
 # モデルを構築
-model = build_model_RNN((X.shape[1], X.shape[2]))
+model = build_model((X.shape[1], X.shape[2]))
 
 # モデルを学習
 model.fit(X_train, y_train, epochs=200, batch_size=64, validation_split=0.2)
