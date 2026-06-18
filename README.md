@@ -128,7 +128,7 @@ python AutomaticComposition.py
 
 <p align="center">
   <img src="example/demo_ope1.gif" width="45%">
-  <img src="example/vdemo_ope2.gif" width="45%">
+  <img src="example/demo_ope2.gif" width="45%">
 </p>
 
 
