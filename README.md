@@ -3,6 +3,9 @@
 自動メロディ生成システムです。
 
 本システムは、LSTMを用いて学習したメロディ生成モデルとMIDIベースのピアノロールエディタを組み合わせ、ユーザがメロディ生成・編集・再生を行える環境を提供します。
+<p align="center">
+  <img src="example/demo_play.gif" width="90%">
+</p>
 
 ---
 
@@ -116,7 +119,7 @@ python AutomaticComposition.py
 ### メロディ再生
 
 <p align="center">
-  <img src="examples/demo_play.gif" width="90%">
+  <img src="example/demo_play.gif" width="90%">
 </p>
 
 
@@ -124,8 +127,8 @@ python AutomaticComposition.py
 ### ピアノロール編集
 
 <p align="center">
-  <img src="examples/demo_ope1.gif" width="45%">
-  <img src="examples/vdemo_ope2.gif" width="45%">
+  <img src="example/demo_ope1.gif" width="45%">
+  <img src="example/vdemo_ope2.gif" width="45%">
 </p>
 
 
