@@ -66,7 +66,11 @@
 ```text
 MIDIデータ
       ↓
-特徴量系列
+音符列抽出
+      ↓
+Pitch / Duration / Timing
+      ↓
+系列データ化
       ↓
 LSTMモデル
       ↓
@@ -109,17 +113,22 @@ python AutomaticComposition.py
 
 ## スクリーンショット
 
-### メイン画面
+### メロディ再生
 
-（画像を追加）
+<p align="center">
+  <img src="examples/demo_play.gif" width="90%">
+</p>
+
+
 
 ### ピアノロール編集
 
-（画像を追加）
+<p align="center">
+  <img src="examples/demo_ope1.gif" width="45%">
+  <img src="examples/vdemo_ope2.gif" width="45%">
+</p>
 
-### 自動生成例
 
-（GIFを追加）
 
 ---
 
@@ -133,6 +142,5 @@ python AutomaticComposition.py
 
 ## 開発
 
-神戸情報大学院大学
-
-領域実習A（学部3年次）
+関西学院大学
+岡田 拓己
